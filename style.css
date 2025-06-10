@@ -1,0 +1,72 @@
+/* Algemene stijlen */
+body {
+    background: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #ff8c00;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.command-interface {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ff8c00;
+    border-radius: 6px;
+    background: #2a2a2a;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    background: #ff8c00;
+    border: none;
+    border-radius: 6px;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff9e3d;
+}
+
+.quick-commands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.command-btn {
+    background: #333333;
+    color: #ff8c00;
+}
+
+#responseContainer {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 200px;
+}
